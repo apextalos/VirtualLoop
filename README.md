@@ -1,5 +1,7 @@
 # VirtualLoop by Apex Talos
-<img width="250" alt="iso" src="https://github.com/user-attachments/assets/b474068d-3669-458b-99df-0bd2ca2a9a7f" />
+<img height="250" alt="iso" src="https://github.com/user-attachments/assets/b474068d-3669-458b-99df-0bd2ca2a9a7f" />
+<img height="250" alt="left" src="https://github.com/user-attachments/assets/bafe1f9e-4b0f-471d-a2c6-e65a366fe996" />
+<img height="250" alt="front" src="https://github.com/user-attachments/assets/9debfe4e-b31f-47bb-83b5-71367786c5e0" />
 
 ## Table of Contents
 1. [Product information and datasheets](#datasheet)
@@ -7,6 +9,7 @@
 3. [Web Interface](#webui)
 4. [Camera Script Generator Tool](#camerascript)
 5. [GAIN Stack](#gain)
+6. [Contact](#contact)
 
 ## Product information and datasheets<a name="datasheet"></a>
 Presentation on Intersection Detection and ATSPM Data Collection: [[Intersection Video Detection.pptx](https://www.dropbox.com/scl/fi/hmjmytsoohgrm2d3pi5ze/Intersection-Video-Detection.pptx?rlkey=ou01154nqmh2z1plagp346tsq&dl=0)]
@@ -97,4 +100,5 @@ log_level=debug
 perflog_device_json={"configs":[{"cutype":"YUNEX","host":"192.168.1.1","port":22,"user":"user","pass":"pass","keyfile":"","pathtodat":"/data"}]}
 perflog_period=10000
 ```
-
+## Contact<a name="contact"></a>
+For assistance, please contact Brandon at brandon@apextalos.tech
