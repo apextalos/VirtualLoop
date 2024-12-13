@@ -1,5 +1,7 @@
 # VirtualLoop by Apex Talos
-<img width="250" alt="iso" src="https://github.com/user-attachments/assets/b474068d-3669-458b-99df-0bd2ca2a9a7f" />
+<img height="250" alt="iso" src="https://github.com/user-attachments/assets/b474068d-3669-458b-99df-0bd2ca2a9a7f" />
+<img height="250" alt="left" src="https://github.com/user-attachments/assets/bafe1f9e-4b0f-471d-a2c6-e65a366fe996" />
+<img height="250" alt="front" src="https://github.com/user-attachments/assets/9debfe4e-b31f-47bb-83b5-71367786c5e0" />
 
 ## Table of Contents
 1. [Product information and datasheets](#datasheet)
