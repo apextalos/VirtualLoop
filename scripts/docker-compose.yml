@@ -1,0 +1,36 @@
+services:
+  influxdb:
+    image: "influxdb:latest"
+    container_name: at_influxdb
+    volumes:
+      - influxdb_data:/var/lib/influxdb
+    ports:
+      - "8086:8086"
+    restart: always
+  grafana:
+    image: "grafana/grafana:latest"
+    container_name: at_grafana
+    volumes:
+      - grafana_data:/var/lib/grafana
+    ports:
+      - "3000:3000"
+    restart: always
+  ntp:
+    image: "cturra/ntp:latest"
+    container_name: at_ntp
+    ports:
+      - "123:123/udp"
+    restart: always
+  sdl:
+    image: "apextalosllc/sdl_multi_arch:buildx-latest"
+    container_name: at_sdl
+    ports:
+      - "1337:1337"
+    restart: always
+    volumes:
+      - /home/firstuser/GitHub/AT-STE/SDL/app.config:/opt/apextalos/sdl/app.config
+volumes:
+  influxdb_data:
+    external: true
+  grafana_data:
+    external: true
