@@ -6,6 +6,7 @@
 2. [REST API](#restapi)
 3. [Web Interface](#webui)
 4. [Camera Script Generator Tool](#camerascript)
+5. [GAIN Stack](#gain)
 
 ## Product information and datasheets<a name="datasheet"></a>
 Presentation on Intersection Detection and ATSPM Data Collection: [[Intersection Video Detection.pptx](https://www.dropbox.com/scl/fi/hmjmytsoohgrm2d3pi5ze/Intersection-Video-Detection.pptx?rlkey=ou01154nqmh2z1plagp346tsq&dl=0)]
@@ -15,18 +16,22 @@ VirtualLoop AT-STE-02 Datasheet: [[AT-STE-02 Datasheet.pdf](https://www.dropbox.
 SDLC protocol reference: [[NEMA TS2-2003.pdf](https://www.dropbox.com/scl/fi/l3es29g8ugdyiyf4ybhre/NEMA-TS2-2003.pdf?rlkey=pro3as7zwp3ee7hn7jcgo2vp0&dl=0)]
 
 ## REST API<a name="restapi"></a>
-Supports placing calls on specific detector #, as well as other features.
-https://documenter.getpostman.com/view/2915446/2sAXqp8PEb
+Supports placing calls on specific detector #, as well as other features
+
+PostMan API tools: [[PostMan](https://documenter.getpostman.com/view/2915446/2sAXqp8PEb)]
 
 ## Web Interface<a name="webui"></a>
+Status page
+
+<kbd><img width="500" alt="image" src="https://github.com/user-attachments/assets/c1351d62-70e9-44c8-9e33-c10a90b58fca" /></kbd>
+
 Detector selection page
 
-![image](https://github.com/user-attachments/assets/e3e1be23-5f8c-40e4-8c1e-f7519dc82d32)
+<kbd><img width="500" alt="image" src="https://github.com/user-attachments/assets/9f2497f4-8593-4c69-83f9-fb4388da6c29" /></kbd>
 
 Network configuration page
 
-![image](https://github.com/user-attachments/assets/83ff1b6d-4a08-4b0a-a387-c42a6358d07c)
-
+<kbd><img width="500" alt="image" src="https://github.com/user-attachments/assets/0df74542-862e-4e7c-8435-20d383dabeba" /></kbd>
 
 ## Camera Script Generator Tool<a name="camerascript"></a>
 Generates the Bosch camera alarm scripts for ease of use and to reduce errors.
@@ -39,7 +44,7 @@ Generates the Bosch camera alarm scripts for ease of use and to reduce errors.
 
 [VirtualLoop Camera Script Generator 1.0.0.3.zip](https://github.com/user-attachments/files/18127058/VirtualLoop.Camera.Script.Generator.1.0.0.3.zip)
 
-## GAIN Stack Docker Compose
+## GAIN Stack<a name="gain"></a>
 The GAIN (Grafana, ATSPM, Influx, NTP) stack can be deployed by running a "docker compose up" with this docker-compose.yml
 ```
 services:
