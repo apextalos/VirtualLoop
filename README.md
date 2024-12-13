@@ -5,6 +5,7 @@
 
 ## Table of Contents
 1. [Product information and datasheets](#datasheet)
+2. [Getting started](#started)
 2. [REST API](#restapi)
 3. [Web Interface](#webui)
 4. [Camera Script Generator Tool](#camerascript)
@@ -17,6 +18,11 @@ Presentation on Intersection Detection and ATSPM Data Collection: [[Intersection
 VirtualLoop AT-STE-02 Datasheet: [[AT-STE-02 Datasheet.pdf](https://www.dropbox.com/scl/fi/lmun6xd79sjraupx2icg0/AT-STE-02-Datasheet.pdf?rlkey=wtu0g6mmazsuxcskwamrxzm6k&dl=0)]
 
 SDLC protocol reference: [[NEMA TS2-2003.pdf](https://www.dropbox.com/scl/fi/l3es29g8ugdyiyf4ybhre/NEMA-TS2-2003.pdf?rlkey=pro3as7zwp3ee7hn7jcgo2vp0&dl=0)]
+
+## Getting started<a name="started"></a>
+The device comes with the IP address 192.168.1.2 as indicated by the OLED screen.  The web UI can be used to set a new IP address if needed.
+
+Holding the front button for 5 seconds or longer will factory reset the device.
 
 ## REST API<a name="restapi"></a>
 Supports placing calls on specific detector #, as well as other features
