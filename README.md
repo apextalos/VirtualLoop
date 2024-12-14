@@ -1,7 +1,14 @@
 # VirtualLoop by Apex Talos
+
+## Rack card mounted
 <img height="250" alt="iso" src="https://github.com/user-attachments/assets/b474068d-3669-458b-99df-0bd2ca2a9a7f" />
 <img height="250" alt="left" src="https://github.com/user-attachments/assets/bafe1f9e-4b0f-471d-a2c6-e65a366fe996" />
 <img height="250" alt="front" src="https://github.com/user-attachments/assets/9debfe4e-b31f-47bb-83b5-71367786c5e0" />
+
+## DIN rail mounted
+<img height="250" alt="iso" src="https://github.com/user-attachments/assets/58a3c2de-7595-4777-814c-cef77e05fb37" />
+<img height="250" alt="front" src="https://github.com/user-attachments/assets/f4a21a4a-bde5-4201-9e49-760bfca61130" />
+<img height="250" alt="rear" src="https://github.com/user-attachments/assets/3f938f77-f29d-4fa2-8562-610c10a8cbee" />
 
 ## Table of Contents
 1. [Product information and datasheets](#datasheet)
