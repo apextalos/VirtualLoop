@@ -1,0 +1,3 @@
+3.4 23dec24
+- Added failsafe monitoring with display and page
+- Additional rebranding to VirtualLoop
