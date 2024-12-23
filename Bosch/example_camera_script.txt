@@ -1,0 +1,4 @@
+HttpCommand biu2det6on := { Command("api/set/detectors?biu2det6=true")IP("192.168.1.209")SSL(false)Port(HTTP)ForceBasicAuth(false)Method(GET) };
+HttpCommand biu2det6off := { Command("api/set/detectors?biu2det6=false")IP("192.168.1.209")SSL(false)Port(HTTP)ForceBasicAuth(false)Method(GET) };
+if (VCARule(1, 1)) then biu2det6on;
+if (!VCARule(1, 1)) then biu2det6off;
