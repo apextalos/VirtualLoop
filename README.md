@@ -37,17 +37,25 @@ Supports placing calls on specific detector #, as well as other features
 PostMan API tools: [[PostMan](https://documenter.getpostman.com/view/2915446/2sAXqp8PEb)]
 
 ## Web Interface<a name="webui"></a>
-Status page
+Status page - Reports version, internal voltage, device name, etc.
 
-<kbd><img width="500" alt="image" src="https://github.com/user-attachments/assets/c1351d62-70e9-44c8-9e33-c10a90b58fca" /></kbd>
+<kbd><img width="396" alt="2025-01-23 12_49_12-Apex Talos VirtualLoop" src="https://github.com/user-attachments/assets/141838cd-6e46-40e5-a299-f4d499a906c1" /></kbd>
 
-Detector selection page
+Network configuration page - Used to set the device IP through either DHCP or Static addressing
 
-<kbd><img width="500" alt="image" src="https://github.com/user-attachments/assets/9f2497f4-8593-4c69-83f9-fb4388da6c29" /></kbd>
+<kbd><img width="396" alt="2025-01-23 12_49_35-Apex Talos VirtualLoop" src="https://github.com/user-attachments/assets/7da69c1c-1a48-4f9f-b282-35be76ae86cd" /></kbd>
 
-Network configuration page
+Detector selection page - Allows the user to force a detector on or off through the UI.  Also reports the number of detector activation counts and provides the user a droplist of the load switch numbers for mapping in ATSPM data
 
-<kbd><img width="500" alt="image" src="https://github.com/user-attachments/assets/0df74542-862e-4e7c-8435-20d383dabeba" /></kbd>
+<kbd><img width="396" alt="2025-01-23 12_49_56-Apex Talos VirtualLoop" src="https://github.com/user-attachments/assets/ae04f788-682d-466b-9021-22971ee01b02" /></kbd>
+
+Failsafe monitoring page - The device can monitor upto 4 IP address and ports.  Typically these would be the camera detection devices.  If the connection is not accepted within the specified number of seconds and failure counts, the VirtualLoop will go into FAILSAFE mode and automatically hold calls on all detectors.
+
+<kbd><img width="396" alt="2025-01-23 12_50_30-Apex Talos VirtualLoop" src="https://github.com/user-attachments/assets/163a9e9e-c5fa-4300-9b34-c5ed7b8b7cfa" /></kbd>
+
+System page - System functions like name, reboot, and factory reset.
+
+<kbd><img width="396" alt="2025-01-23 12_50_55-Apex Talos VirtualLoop" src="https://github.com/user-attachments/assets/ae4f439e-28da-4d14-aabb-83732f7ddb76" /></kbd>
 
 ## Camera Script Generator Tool<a name="camerascript"></a>
 Generates the Bosch camera alarm scripts for ease of use and to reduce errors.
