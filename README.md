@@ -60,8 +60,14 @@ Generates the Bosch camera alarm scripts for ease of use and to reduce errors.
 
 [VirtualLoop Camera Script Generator 1.1.zip](https://www.dropbox.com/scl/fi/9gq768l0by5rcugnkj0p0/VirtualLoop-Camera-Script-Generator-1.1.zip?rlkey=8iu7kg6n7ad5uw18myi016jtm&dl=0)
 
-## GAIN Stack<a name="gain"></a>
-The GAIN (Grafana, ATSPM, Influx, NTP) stack can be deployed by running a "docker compose up" with this docker-compose.yml
+## GAIN Stack - Reporting Dashboard<a name="gain"></a>
+The GAIN (Grafana, ATSPM, Influx, NTP) stack can be deployed by running a "docker compose up" with this docker-compose.yml and is comprised of 4 main peices:
+
+1. ATSPM - this is a container by Apex Talos which gather detection and phase data from either the VirtualLoop or the Controller's high-res data log.  The data is inserted into the time series database...
+2. Influx - this is the time series database which will contain the ATSPM data and is queried by the Dashboard for charting and alerts...
+3. Grafana - this is a very powerful dashboard designer which provides many ways to view data through a series of charts.  It also provides an alert engine for notification of when metrics reach thresholds
+4. NTP - a simple NTP clock server for use if one does not already exist
+5. 
 ```
 services:
   influxdb:
