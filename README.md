@@ -75,7 +75,7 @@ The GAIN (Grafana, ATSPM, Influx, NTP) stack can be deployed by running a "docke
 2. Influx - this is the time series database which will contain the ATSPM data and is queried by the Dashboard for charting and alerts...
 3. Grafana - this is a very powerful dashboard designer which provides many ways to view data through a series of charts.  It also provides an alert engine for notification of when metrics reach thresholds
 4. NTP - a simple NTP clock server for use if one does not already exist
-5. 
+   
 ```
 services:
   influxdb:
