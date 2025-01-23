@@ -15,7 +15,7 @@
 2. [Getting started](#started)
 2. [REST API](#restapi)
 3. [Web Interface](#webui)
-4. [Camera Script Generator Tool](#camerascript)
+4. [Bosch Camera Script Generator Tool](#camerascript)
 5. [GAIN Stack](#gain)
 6. [Contact](#contact)
 
@@ -57,8 +57,8 @@ System page - System functions like name, reboot, and factory reset.
 
 <kbd><img width="396" alt="2025-01-23 12_50_55-Apex Talos VirtualLoop" src="https://github.com/user-attachments/assets/ae4f439e-28da-4d14-aabb-83732f7ddb76" /></kbd>
 
-## Camera Script Generator Tool<a name="camerascript"></a>
-Generates the Bosch camera alarm scripts for ease of use and to reduce errors.
+## Bosch Camera Script Generator Tool<a name="camerascript"></a>
+Generates the Bosch camera alarm task scripts for ease of use and to reduce errors.
 
 1. Enter the IP address of the VirtualLoop device
 2. Fill out the table with the mappings of cameras and rules to BIUs and detectors
