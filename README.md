@@ -10,6 +10,8 @@ Power supplied by the cabinet backplane
 ## DIN rail mounted
 Power supplied either by 12/24VDC on the front, or PoE 802.3af (consumes only ~1w)
 
+2.1" wide x 6" deep x 4.1" high
+
 <img height="250" alt="iso" src="https://github.com/user-attachments/assets/58a3c2de-7595-4777-814c-cef77e05fb37" />
 <img height="250" alt="front" src="https://github.com/user-attachments/assets/f4a21a4a-bde5-4201-9e49-760bfca61130" />
 <img height="250" alt="rear" src="https://github.com/user-attachments/assets/3f938f77-f29d-4fa2-8562-610c10a8cbee" />
@@ -24,6 +26,9 @@ Power supplied either by 12/24VDC on the front, or PoE 802.3af (consumes only ~1
 6. [Contact](#contact)
 
 ## Product information and datasheets<a name="datasheet"></a>
+<img width="723" alt="overview" src="https://github.com/user-attachments/assets/fdd604a2-de2c-4213-968b-2eb035a5c74a" />
+
+
 Presentation on Intersection Detection and ATSPM Data Collection: [[Intersection Video Detection.pptx](https://www.dropbox.com/scl/fi/hmjmytsoohgrm2d3pi5ze/Intersection-Video-Detection.pptx?rlkey=ou01154nqmh2z1plagp346tsq&dl=0)]
 
 VirtualLoop AT-STE-02 Datasheet: [[AT-STE-02 Datasheet.pdf](https://www.dropbox.com/scl/fi/lmun6xd79sjraupx2icg0/AT-STE-02-Datasheet.pdf?rlkey=wtu0g6mmazsuxcskwamrxzm6k&dl=0)]
