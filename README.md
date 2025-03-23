@@ -75,9 +75,7 @@ Generates the Bosch camera alarm task scripts for ease of use and to reduce erro
 4. Paste accordingly into your camera's Alarm Task Editors
 <img width="524" alt="1734024433648blob" src="https://github.com/user-attachments/assets/bb9cfa4f-0c57-435f-859e-aada77d360c4" />
 
-[[VirtualLoop Camera Script Generator Setup](https://www.dropbox.com/scl/fi/9gq768l0by5rcugnkj0p0/VirtualLoop-Camera-Script-Generator-1.1.zip?rlkey=8iu7kg6n7ad5uw18myi016jtm&dl=0)]
-
-(https://www.dropbox.com/scl/fi/9izzetrmdh8i0pbwc6auz/CameraScriptGeneratorSetup.msi?rlkey=gnsn2c11pwpk1uz0p0apj3e3g&dl=0)
+[[VirtualLoop Camera Script Generator Setup](https://www.dropbox.com/scl/fi/9izzetrmdh8i0pbwc6auz/CameraScriptGeneratorSetup.msi?rlkey=gnsn2c11pwpk1uz0p0apj3e3g&dl=0)]
 
 ## GAIN Stack - Reporting Dashboard<a name="gain"></a>
 The GAIN (Grafana, ATSPM, Influx, NTP) stack can be deployed by running a "docker compose up" with this docker-compose.yml and is comprised of 4 main peices:
