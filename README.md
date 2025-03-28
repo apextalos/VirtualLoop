@@ -3,18 +3,21 @@
 ## BIU Rack card mounted
 Power supplied by the cabinet backplane
 
-<img height="250" alt="iso" src="https://github.com/user-attachments/assets/b474068d-3669-458b-99df-0bd2ca2a9a7f" />
-<img height="250" alt="left" src="https://github.com/user-attachments/assets/bafe1f9e-4b0f-471d-a2c6-e65a366fe996" />
-<img height="250" alt="front" src="https://github.com/user-attachments/assets/9debfe4e-b31f-47bb-83b5-71367786c5e0" />
+<img height="250" alt="Rack_iso" src="https://github.com/user-attachments/assets/616049a2-af66-47e1-9e1f-77e0dc958a87" />
+<img height="250" alt="Rack_side" src="https://github.com/user-attachments/assets/996f6862-f143-4e1a-8806-8dd1fbb3bdfd" />
+<img height="250" alt="Rack_front" src="https://github.com/user-attachments/assets/eba9d5de-2109-4dc7-9f3c-2a36058491d5" />
 
 ## DIN rail mounted
 Power supplied either by 12/24VDC on the front, or PoE 802.3af (consumes only ~1w)
 
 2.1" wide x 6" deep x 4.1" high
 
-<img height="250" alt="iso" src="https://github.com/user-attachments/assets/58a3c2de-7595-4777-814c-cef77e05fb37" />
-<img height="250" alt="front" src="https://github.com/user-attachments/assets/f4a21a4a-bde5-4201-9e49-760bfca61130" />
-<img height="250" alt="rear" src="https://github.com/user-attachments/assets/3f938f77-f29d-4fa2-8562-610c10a8cbee" />
+This model also includes 8 relay outputs for TS1 integration
+
+<img height="250" alt="Din_iso" src="https://github.com/user-attachments/assets/e606902a-25fe-4a86-87e3-f913a458dfb3" />
+<img height="250" alt="Din_rear" src="https://github.com/user-attachments/assets/dd634314-a87f-4709-be97-53b4329bdefe" />
+<img height="250" alt="Din_side" src="https://github.com/user-attachments/assets/fb541cc3-cbdc-4cb6-96dd-edceb44bea2e" />
+<img height="250" alt="Rack_front" src="https://github.com/user-attachments/assets/3fcb3a99-6ec0-46dd-aeb3-3c7a71440614" />
 
 ## Table of Contents
 1. [Product information and datasheets](#datasheet)
@@ -28,15 +31,14 @@ Power supplied either by 12/24VDC on the front, or PoE 802.3af (consumes only ~1
 ## Product information and datasheets<a name="datasheet"></a>
 <img width="723" alt="overview" src="https://github.com/user-attachments/assets/fdd604a2-de2c-4213-968b-2eb035a5c74a" />
 
+Presentation on Intersection Detection and ATSPM Data Collection: [[Intersection Video Detection.pptx](https://github.com/user-attachments/files/19509660/Intersection.Video.Detection.pptx)]
 
-Presentation on Intersection Detection and ATSPM Data Collection: [[Intersection Video Detection.pptx](https://www.dropbox.com/scl/fi/hmjmytsoohgrm2d3pi5ze/Intersection-Video-Detection.pptx?rlkey=ou01154nqmh2z1plagp346tsq&dl=0)]
-
-VirtualLoop AT-STE-02 Datasheet: [[AT-STE-02 Datasheet.pdf](https://www.dropbox.com/scl/fi/lmun6xd79sjraupx2icg0/AT-STE-02-Datasheet.pdf?rlkey=wtu0g6mmazsuxcskwamrxzm6k&dl=0)]
+VirtualLoop AT-STE-02 Datasheet: [[VirtualLoop Datasheet.docx](https://github.com/user-attachments/files/19509669/VirtualLoop.Datasheet.docx)]
 
 SDLC protocol reference: [[NEMA TS2-2003.pdf](https://www.dropbox.com/scl/fi/l3es29g8ugdyiyf4ybhre/NEMA-TS2-2003.pdf?rlkey=pro3as7zwp3ee7hn7jcgo2vp0&dl=0)]
 
 ## Getting started<a name="started"></a>
-The device comes with the IP address 192.168.1.2 as indicated by the OLED screen.  The web UI can be used to set a new IP address if needed.
+The device comes with the IP address 192.168.1.2 (or other as indicated by the OLED screen).  The web UI can be used to set a new IP address if needed.
 
 Holding the front button for 5 seconds or longer will factory reset the device.
 
