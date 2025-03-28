@@ -17,7 +17,7 @@ This model also includes 8 relay outputs for TS1 integration
 <img height="250" alt="Din_iso" src="https://github.com/user-attachments/assets/e606902a-25fe-4a86-87e3-f913a458dfb3" />
 <img height="250" alt="Din_rear" src="https://github.com/user-attachments/assets/dd634314-a87f-4709-be97-53b4329bdefe" />
 <img height="250" alt="Din_side" src="https://github.com/user-attachments/assets/fb541cc3-cbdc-4cb6-96dd-edceb44bea2e" />
-<img height="250" alt="Rack_front" src="https://github.com/user-attachments/assets/3fcb3a99-6ec0-46dd-aeb3-3c7a71440614" />
+<img height="250" alt="Din_front" src="https://github.com/user-attachments/assets/d0578019-3367-4cdd-824d-ca40280487d6" />
 
 ## Table of Contents
 1. [Product information and datasheets](#datasheet)
