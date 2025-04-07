@@ -1,4 +1,4 @@
-# VirtualLoop by Apex Talos
+# VirtualLoop
 
 ## BIU Rack card mounted
 Power supplied by the cabinet backplane
