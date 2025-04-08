@@ -75,7 +75,8 @@ Generates the Bosch camera alarm task scripts for ease of use and to reduce erro
 2. Fill out the table with the mappings of cameras and rules to BIUs and detectors
 3. Hit the "Generate" button and now you have each of the script blocks
 4. Paste accordingly into your camera's Alarm Task Editors
-<img width="524" alt="1734024433648blob" src="https://github.com/user-attachments/assets/bb9cfa4f-0c57-435f-859e-aada77d360c4" />
+
+<img width="1235" alt="mappings" src="https://github.com/user-attachments/assets/dc0dad7b-f46c-40ca-8c7d-655c6e1b3928" />
 
 [[VirtualLoop Camera Script Generator Setup](https://www.dropbox.com/scl/fi/9izzetrmdh8i0pbwc6auz/CameraScriptGeneratorSetup.msi?rlkey=gnsn2c11pwpk1uz0p0apj3e3g&dl=0)]
 
