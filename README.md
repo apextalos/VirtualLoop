@@ -1,18 +1,22 @@
 # VirtualLoop
 
 ## BIU Rack card mounted
-Power supplied by the cabinet backplane
+**Power:** supplied by the cabinet backplane
+
+**Mounting:**  BIU rack plugin
+
+**Relay Control:**  None
 
 <img height="250" alt="Rack_iso" src="https://github.com/user-attachments/assets/616049a2-af66-47e1-9e1f-77e0dc958a87" />
 <img height="250" alt="Rack_side" src="https://github.com/user-attachments/assets/996f6862-f143-4e1a-8806-8dd1fbb3bdfd" />
 <img height="250" alt="Rack_front" src="https://github.com/user-attachments/assets/eba9d5de-2109-4dc7-9f3c-2a36058491d5" />
 
 ## DIN rail mounted
-Power supplied either by 12/24VDC on the front, or PoE 802.3af (consumes only ~1w)
+**Power:** supplied either by 12/24VDC on the front, or PoE 802.3af (consumes only ~1w)
 
-2.1" wide x 6" deep x 4.1" high
+**Mounting:** Din or shelf 2.1" wide x 6" deep x 4.1" high
 
-This model also includes 8 relay outputs for TS1 integration
+**Relay Control:**  8 relays (C/NO/NC contacts) each can switch a max of 1A @ 125VAC or 60VDC
 
 <img height="250" alt="Din_iso" src="https://github.com/user-attachments/assets/e606902a-25fe-4a86-87e3-f913a458dfb3" />
 <img height="250" alt="Din_rear" src="https://github.com/user-attachments/assets/dd634314-a87f-4709-be97-53b4329bdefe" />
