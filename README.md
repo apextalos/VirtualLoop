@@ -26,6 +26,7 @@
 ## Table of Contents
 1. [Product information and datasheets](#datasheet)
 2. [Getting started](#started)
+3. [Factory reset](#reset)
 2. [REST API](#restapi)
 3. [Web Interface](#webui)
 4. [Bosch Camera Script Generator Tool](#camerascript)
@@ -44,6 +45,7 @@ SDLC protocol reference: [[NEMA TS2-2003.pdf](https://www.dropbox.com/scl/fi/l3e
 ## Getting started<a name="started"></a>
 The device comes with the IP address 192.168.1.2 (or other as indicated by the OLED screen).  The web UI can be used to set a new IP address if needed.
 
+## Factory reset<a name="reset"></a>
 Holding the front button for 5 seconds or longer will factory reset the device.
 
 ## REST API<a name="restapi"></a>
@@ -86,64 +88,6 @@ Generates the Bosch camera alarm task scripts for ease of use and to reduce erro
 
 [[VirtualLoop Camera Script Generator 1.4 Portable](https://www.dropbox.com/scl/fi/pqyh3oal42qxbieu2pygb/CameraScriptGeneratorPortable_1.4.zip?rlkey=mal099pq6zfqd5k0mia5xeipc&dl=0)]
 
-## GAIN Stack - Reporting Dashboard<a name="gain"></a>
-The GAIN (Grafana, ATSPM, Influx, NTP) stack can be deployed by running a "docker compose up" with this docker-compose.yml and is comprised of 4 main peices:
 
-1. ATSPM - this is a container by Apex Talos which gather detection and phase data from either the VirtualLoop or the Controller's high-res data log.  The data is inserted into the time series database...
-2. Influx - this is the time series database which will contain the ATSPM data and is queried by the Dashboard for charting and alerts...
-3. Grafana - this is a very powerful dashboard designer which provides many ways to view data through a series of charts.  It also provides an alert engine for notification of when metrics reach thresholds
-4. NTP - a simple NTP clock server for use if one does not already exist
-   
-```
-services:
-  influxdb:
-    image: "influxdb:latest"
-    container_name: at_influxdb
-    volumes:
-      - influxdb_data:/var/lib/influxdb
-    ports:
-      - "8086:8086"
-    restart: always
-  grafana:
-    image: "grafana/grafana:latest"
-    container_name: at_grafana
-    volumes:
-      - grafana_data:/var/lib/grafana
-    ports:
-      - "3000:3000"
-    restart: always
-  ntp:
-    image: "cturra/ntp:latest"
-    container_name: at_ntp
-    ports:
-      - "123:123/udp"
-    restart: always
-  sdl:
-    image: "apextalosllc/sdl_multi_arch:buildx-latest"
-    container_name: at_sdl
-    ports:
-      - "1337:1337"
-    restart: always
-    volumes:
-      - /home/firstuser/GitHub/AT-STE/SDL/app.config:/opt/apextalos/sdl/app.config
-volumes:
-  influxdb_data:
-    external: true
-  grafana_data:
-    external: true
-```
-
-The app.config file mapped by the SDL service looks like this:
-```
-device_ip_csv=192.168.14.34
-device_period=0
-db_url=http://192.168.14.35:8086/
-db_token={DB TOKEN GOES HERE}
-db_bucket=atspm
-db_org=Apex Talos LLC
-log_level=debug
-perflog_device_json={"configs":[{"cutype":"YUNEX","host":"192.168.1.1","port":22,"user":"user","pass":"pass","keyfile":"","pathtodat":"/data"}]}
-perflog_period=10000
-```
 ## Contact<a name="contact"></a>
 For assistance, please contact Brandon at brandon@apextalos.tech
