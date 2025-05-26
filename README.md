@@ -89,12 +89,12 @@ Generates the Bosch camera alarm task scripts for ease of use and to reduce erro
 [[VirtualLoop Camera Script Generator 1.4 Portable](https://www.dropbox.com/scl/fi/pqyh3oal42qxbieu2pygb/CameraScriptGeneratorPortable_1.4.zip?rlkey=mal099pq6zfqd5k0mia5xeipc&dl=0)]
 
 ## Firmware upgrades<a name="firmware"></a>
-Download the firmware upgrade utility and follow the instructions on the screen.
+Download the firmware upgrade utility below and follow the instructions on the screen.
 
 <img width="300" alt="FW reset button" src="https://github.com/user-attachments/assets/8fbc860e-803a-4031-bbb5-e74d15a9ecbe"/>
 <img width="439" alt="Firmware Upgrader 1 0 0 0" src="https://github.com/user-attachments/assets/e1297ff2-eee5-4771-a81c-fac1eeb1fe7b" />
 
-[[Firmware Upgrade Utility Portable](https://www.dropbox.com/scl/fi/m1rfkn9kznywd6esvq98d/FirmwareUpgrader.zip?rlkey=vx569urpnjcfxn4syhzmrbpfr&dl=0)
+[[Firmware Upgrade Utility Portable](https://www.dropbox.com/scl/fi/m1rfkn9kznywd6esvq98d/FirmwareUpgrader.zip?rlkey=vx569urpnjcfxn4syhzmrbpfr&dl=0)]
 
 ## Contact<a name="contact"></a>
 For assistance, please contact Brandon at brandon@apextalos.tech
