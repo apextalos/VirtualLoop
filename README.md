@@ -30,7 +30,7 @@
 2. [REST API](#restapi)
 3. [Web Interface](#webui)
 4. [Bosch Camera Script Generator Tool](#camerascript)
-5. [GAIN Stack](#gain)
+5. [Firmware upgrades](#firmware)
 6. [Contact](#contact)
 
 ## Product information and datasheets<a name="datasheet"></a>
@@ -88,6 +88,10 @@ Generates the Bosch camera alarm task scripts for ease of use and to reduce erro
 
 [[VirtualLoop Camera Script Generator 1.4 Portable](https://www.dropbox.com/scl/fi/pqyh3oal42qxbieu2pygb/CameraScriptGeneratorPortable_1.4.zip?rlkey=mal099pq6zfqd5k0mia5xeipc&dl=0)]
 
+## Firmware upgrades<a name="firmware"></a>
+<img width="300" alt="FW reset button" src="https://github.com/user-attachments/assets/8fbc860e-803a-4031-bbb5-e74d15a9ecbe"/>
+
+https://www.dropbox.com/scl/fi/m1rfkn9kznywd6esvq98d/FirmwareUpgrader.zip?rlkey=vx569urpnjcfxn4syhzmrbpfr&dl=0
 
 ## Contact<a name="contact"></a>
 For assistance, please contact Brandon at brandon@apextalos.tech
