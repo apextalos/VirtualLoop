@@ -94,7 +94,7 @@ Download the firmware upgrade utility and follow the instructions on the screen.
 <img width="300" alt="FW reset button" src="https://github.com/user-attachments/assets/8fbc860e-803a-4031-bbb5-e74d15a9ecbe"/>
 <img width="439" alt="Firmware Upgrader 1 0 0 0" src="https://github.com/user-attachments/assets/e1297ff2-eee5-4771-a81c-fac1eeb1fe7b" />
 
-https://www.dropbox.com/scl/fi/m1rfkn9kznywd6esvq98d/FirmwareUpgrader.zip?rlkey=vx569urpnjcfxn4syhzmrbpfr&dl=0
+[[Firmware Upgrade Utility Portable](https://www.dropbox.com/scl/fi/m1rfkn9kznywd6esvq98d/FirmwareUpgrader.zip?rlkey=vx569urpnjcfxn4syhzmrbpfr&dl=0)
 
 ## Contact<a name="contact"></a>
 For assistance, please contact Brandon at brandon@apextalos.tech
