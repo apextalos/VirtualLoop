@@ -1,6 +1,19 @@
 # VirtualLoop
 
-## BIU Rack card mounted
+## Table of Contents
+1. [Models](#models)
+2. [Product information and datasheets](#datasheet)
+3. [Getting Started Checklist](#started)
+4. [Factory Reset](#reset)
+2. [REST API](#restapi)
+3. [Web Interface](#webui)
+4. [Bosch Camera Script Generator Tool](#camerascript)
+5. [Firmware Upgrades](#firmware)
+6. [Contact](#contact)
+
+## Models<a name="models"></a>
+
+### BIU Rack card mounted
 **Power:** supplied by the cabinet backplane
 
 **Mounting:**  BIU rack plugin
@@ -11,7 +24,7 @@
 <img height="250" alt="Rack_side" src="https://github.com/user-attachments/assets/996f6862-f143-4e1a-8806-8dd1fbb3bdfd" />
 <img height="250" alt="Rack_front" src="https://github.com/user-attachments/assets/eba9d5de-2109-4dc7-9f3c-2a36058491d5" />
 
-## DIN rail mounted
+### DIN rail mounted
 **Power:** supplied either by 12/24VDC on the front, or PoE 802.3af (consumes only ~1w)
 
 **Mounting:** Din or shelf 2.1" wide x 6" deep x 4.1" high
@@ -27,16 +40,6 @@ Relays are numbered 1 through 8 with 1 closest to the front of the unit.  Each r
 <img width="800" alt="Relay contacts" src="https://github.com/user-attachments/assets/189c1398-b71e-48e6-81df-30fbbb72ee31" />
 
 
-## Table of Contents
-1. [Product information and datasheets](#datasheet)
-2. [Getting started](#started)
-3. [Factory reset](#reset)
-2. [REST API](#restapi)
-3. [Web Interface](#webui)
-4. [Bosch Camera Script Generator Tool](#camerascript)
-5. [Firmware upgrades](#firmware)
-6. [Contact](#contact)
-
 ## Product information and datasheets<a name="datasheet"></a>
 <img width="723" alt="overview" src="https://github.com/user-attachments/assets/fdd604a2-de2c-4213-968b-2eb035a5c74a" />
 
@@ -46,14 +49,16 @@ VirtualLoop AT-STE-02 Datasheet: [[VirtualLoop Datasheet.docx](https://github.co
 
 SDLC protocol reference: [[NEMA TS2-2003.pdf](https://www.dropbox.com/scl/fi/l3es29g8ugdyiyf4ybhre/NEMA-TS2-2003.pdf?rlkey=pro3as7zwp3ee7hn7jcgo2vp0&dl=0)]
 
-## Getting started Checklist<a name="started"></a>
+## Getting Started Checklist<a name="started"></a>
 
-1. Power the device either through PoE, 12/24VDC plug, or BIU rack insertion
+1. Installation
+    1. Power the device either through PoE, 12/24VDC plug, or BIU rack insertion
+    2. Verify the heartbeat light blinks 1 per second
 2. Networking
-    1. Setup a laptop to communicate on the subnet 192.168.1.XXX
-    2. The device initial IP address is indicated by the OLED screen
-    3. Login to the unit's web interface using a browser
-    4. Set the proper address, subnet, and gateway IP for the network which allows communication to the cameras
+    1. Setup a laptop to communicate on the subnet 192.168.1.XXX and plugin to the front Ethernet port
+    3. The device initial IP address is indicated by the OLED screen
+    4. Login to the unit's web interface using a browser
+    5. Set the proper address, subnet, and gateway IP for the network which allows communication to the cameras
 3. Detector integration
     1. Plugin the SDLC interface cable
     2. Use the VirtualLoop Web interface to enable the proper BIU #'s
@@ -65,8 +70,9 @@ SDLC protocol reference: [[NEMA TS2-2003.pdf](https://www.dropbox.com/scl/fi/l3e
     2. Use the [Firmware upgrades](#firmware) tool to install the latest firmware onto the device
     3. Add failsafe monitoring configs
     4. Add time synchronization configs
+    5. Rotate through the device screens checking for any errors
 
-## Factory reset<a name="reset"></a>
+## Factory Reset<a name="reset"></a>
 Holding the front button for 5 seconds or longer will factory reset the device.
 
 ## REST API<a name="restapi"></a>
@@ -108,7 +114,7 @@ Generates the Bosch camera alarm task scripts for ease of use and to reduce erro
 
 <img width="1235" alt="mappings" src="https://github.com/user-attachments/assets/dc0dad7b-f46c-40ca-8c7d-655c6e1b3928" />
 
-## Firmware upgrades<a name="firmware"></a>
+## Firmware Upgrades<a name="firmware"></a>
 
 [[VirtualLoop Firmware Upgrade Utility 1.1 Portable](https://www.dropbox.com/scl/fi/y765anx270u9r2flyi9zm/STEFirmwareUpgrader_1.1.zip?rlkey=koa5n1zyf8jm6i4lgu2hewvsx&dl=0)]
 
