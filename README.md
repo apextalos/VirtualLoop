@@ -78,7 +78,10 @@ System page - System functions like name, reboot, and factory reset.
 
 <kbd><img width="396" alt="2025-01-23 12_50_55-Apex Talos VirtualLoop" src="https://github.com/user-attachments/assets/ae4f439e-28da-4d14-aabb-83732f7ddb76" /></kbd>
 
-## Bosch Camera Script Generator Tool<a name="camerascript"></a>
+## VirtualLoop Script Generator for Bosch Cameras<a name="camerascript"></a>
+
+[[VirtualLoop Camera Script Generator 1.5 Portable](https://www.dropbox.com/scl/fi/5tcepr2p8h2vbh11wa8fn/STECameraScript_1.5.zip?rlkey=fw5b4kg6uk1qw574nfql9krn1&dl=0)]
+
 Generates the Bosch camera alarm task scripts for ease of use and to reduce errors.
 
 1. Enter the IP address of the VirtualLoop device
@@ -88,14 +91,13 @@ Generates the Bosch camera alarm task scripts for ease of use and to reduce erro
 
 <img width="1235" alt="mappings" src="https://github.com/user-attachments/assets/dc0dad7b-f46c-40ca-8c7d-655c6e1b3928" />
 
-[[VirtualLoop Camera Script Generator 1.4 Setup](https://www.dropbox.com/scl/fi/abxpsiqhxcu7d2wghwz53/CameraScriptGeneratorSetup_1.4.msi?rlkey=8fv5zuof6n13nci2s7ybx1pa2&dl=0)]
-
-[[VirtualLoop Camera Script Generator 1.4 Portable](https://www.dropbox.com/scl/fi/pqyh3oal42qxbieu2pygb/CameraScriptGeneratorPortable_1.4.zip?rlkey=mal099pq6zfqd5k0mia5xeipc&dl=0)]
-
 ## Firmware upgrades<a name="firmware"></a>
-Download the firmware upgrade utility below and follow the instructions on the screen.
 
-[[Firmware Upgrade Utility Portable](https://www.dropbox.com/scl/fi/m1rfkn9kznywd6esvq98d/FirmwareUpgrader.zip?rlkey=vx569urpnjcfxn4syhzmrbpfr&dl=0)]
+[[VirtualLoop Firmware Upgrade Utility 1.1 Portable](https://www.dropbox.com/scl/fi/y765anx270u9r2flyi9zm/STEFirmwareUpgrader_1.1.zip?rlkey=koa5n1zyf8jm6i4lgu2hewvsx&dl=0)]
+
+[[VirtualLoop Firmware 3.8](https://www.dropbox.com/scl/fi/4wwc64ikyemj3cxec7pc6/SAMD51_3.8.bin?rlkey=piafwqfs0macyg4v45py9ihme&dl=0)]
+
+Download the firmware upgrade utility below and follow the instructions on the screen.
 
 <img width="439" alt="Firmware Upgrader 1 0 0 0" src="https://github.com/user-attachments/assets/e1297ff2-eee5-4771-a81c-fac1eeb1fe7b" />
 
