@@ -54,7 +54,7 @@ SDLC protocol reference: [[NEMA TS2-2003.pdf](https://www.dropbox.com/scl/fi/l3e
 - [ ] Installation
     - [ ] Power the device either through PoE, 12/24VDC plug, or BIU rack insertion
     - [ ] Verify the heartbeat light blinks 1 per second
-- [ ]. Networking
+- [ ] Networking
     - [ ] Setup a laptop to communicate on the subnet 192.168.1.XXX and plugin to the front Ethernet port
     - [ ] The device initial IP address is indicated by the OLED screen
     - [ ] Login to the unit's web interface using a browser
