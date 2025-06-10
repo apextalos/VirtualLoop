@@ -51,26 +51,26 @@ SDLC protocol reference: [[NEMA TS2-2003.pdf](https://www.dropbox.com/scl/fi/l3e
 
 ## Getting Started Checklist<a name="started"></a>
 
-1. Installation
-    1. Power the device either through PoE, 12/24VDC plug, or BIU rack insertion
-    2. Verify the heartbeat light blinks 1 per second
-2. Networking
-    1. Setup a laptop to communicate on the subnet 192.168.1.XXX and plugin to the front Ethernet port
-    3. The device initial IP address is indicated by the OLED screen
-    4. Login to the unit's web interface using a browser
-    5. Set the proper address, subnet, and gateway IP for the network which allows communication to the cameras
-3. Detector integration
-    1. Plugin the SDLC interface cable
-    2. Use the VirtualLoop Web interface to enable the proper BIU #'s
-    3. Verify communication with the Intersection Control Unit through LEDs and exiting failsafe mode
-    4. Use the [Bosch Camera Script Generator Tool](#camerascript) to generate VCA tasks based on the rule and detector mappings
-    5. Install scripts onto the cameras as directed by the tool
-4. Additional Recommended Items
-    1. On the System tab, set a unique intersection name or number
-    2. Use the [Firmware upgrades](#firmware) tool to install the latest firmware onto the device
-    3. Add failsafe monitoring configs
-    4. Add time synchronization configs
-    5. Rotate through the device screens checking for any errors
+- [ ] Installation
+    - [ ] Power the device either through PoE, 12/24VDC plug, or BIU rack insertion
+    - [ ] Verify the heartbeat light blinks 1 per second
+- [ ]. Networking
+    - [ ] Setup a laptop to communicate on the subnet 192.168.1.XXX and plugin to the front Ethernet port
+    - [ ] The device initial IP address is indicated by the OLED screen
+    - [ ] Login to the unit's web interface using a browser
+    - [ ] Set the proper address, subnet, and gateway IP for the network which allows communication to the cameras
+- [ ] Detector integration
+    - [ ] Plugin the SDLC interface cable
+    - [ ] Use the VirtualLoop Web interface to enable the proper BIU #'s
+    - [ ] Verify communication with the Intersection Control Unit through LEDs and exiting failsafe mode
+    - [ ] Use the [Bosch Camera Script Generator Tool](#camerascript) to generate VCA tasks based on the rule and detector mappings
+    - [ ] Install scripts onto the cameras as directed by the tool
+- [ ] Additional Recommended Items
+    - [ ] On the System tab, set a unique intersection name or number
+    - [ ] Use the [Firmware upgrades](#firmware) tool to install the latest firmware onto the device
+    - [ ] Add failsafe monitoring configs
+    - [ ] Add time synchronization configs
+    - [ ] Rotate through the device screens checking for any errors
 
 ## Factory Reset<a name="reset"></a>
 Holding the front button for 5 seconds or longer will factory reset the device.
