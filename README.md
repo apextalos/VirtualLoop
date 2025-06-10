@@ -46,8 +46,25 @@ VirtualLoop AT-STE-02 Datasheet: [[VirtualLoop Datasheet.docx](https://github.co
 
 SDLC protocol reference: [[NEMA TS2-2003.pdf](https://www.dropbox.com/scl/fi/l3es29g8ugdyiyf4ybhre/NEMA-TS2-2003.pdf?rlkey=pro3as7zwp3ee7hn7jcgo2vp0&dl=0)]
 
-## Getting started<a name="started"></a>
-The device comes with the IP address 192.168.1.2 (or other as indicated by the OLED screen).  The web UI can be used to set a new IP address if needed.
+## Getting started Checklist<a name="started"></a>
+
+1. Power the device either through PoE, 12/24VDC on the front, or by BIU rack insertion
+2. Networking
+  1. Setup a laptop to communicate on the subnet 192.168.1.XXX
+  2. The device initial IP address is indicated by the OLED screen
+  3. Login to the unit's web interface using a browser
+  4. Set the proper address, subnet, and gateway IP for the network which allows communication to the cameras
+3. Detector integration
+  1. Plugin the SDLC interface cable
+  2. Use the VirtualLoop Web interface to enable the proper BIU #'s
+  3. Verify communication with the Intersection Control Unit through LEDs and exiting failsafe mode
+  4. Use the [Bosch Camera Script Generator Tool](#camerascript) to generate VCA tasks based on the rule and detector mappings
+  5. Install scripts onto the cameras as directed by the tool
+4. Additional Recommended Items
+  1. On the System tab, set a unique intersection name or number
+  2. Use the [Firmware upgrades](#firmware) tool to install the latest firmware onto the device
+  3. Add failsafe monitoring configs
+  4. Add time synchronization configs
 
 ## Factory reset<a name="reset"></a>
 Holding the front button for 5 seconds or longer will factory reset the device.
