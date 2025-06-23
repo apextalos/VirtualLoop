@@ -116,7 +116,7 @@ Generates the Bosch camera alarm task scripts for ease of use and to reduce erro
 
 ## Firmware Upgrades<a name="firmware"></a>
 
-[[VirtualLoop Firmware Upgrade Utility 1.1 Portable](https://www.dropbox.com/scl/fi/y765anx270u9r2flyi9zm/STEFirmwareUpgrader_1.1.zip?rlkey=koa5n1zyf8jm6i4lgu2hewvsx&dl=0)]
+[[VirtualLoop Firmware Upgrade Utility 1.2 Portable](https://www.dropbox.com/scl/fi/rtb79ys46dydydu4ma76h/STEFirmwareUpgrader_1.2.zip?rlkey=xkjt9v6gsgjmpfusd72j7st51&dl=0)]
 
 [[VirtualLoop Firmware 3.8](https://www.dropbox.com/scl/fi/4wwc64ikyemj3cxec7pc6/SAMD51_3.8.bin?rlkey=piafwqfs0macyg4v45py9ihme&dl=0)]
 
