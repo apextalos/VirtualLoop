@@ -126,7 +126,7 @@ Generates the Bosch camera alarm task scripts for ease of use and to reduce erro
 
 Download the firmware upgrade utility below and follow the instructions on the screen.
 
-<img width="439" alt="Firmware Upgrader 1 0 0 0" src="https://github.com/user-attachments/assets/e1297ff2-eee5-4771-a81c-fac1eeb1fe7b" />
+<img width="484" height="476" alt="Firmware Upgrader 1 2 0 0" src="https://github.com/user-attachments/assets/a10b66ee-5bff-41fc-8377-57aa316f4482" />
 
 You'll need a USB micro cable like this:
 
