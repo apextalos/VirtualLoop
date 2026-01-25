@@ -103,7 +103,7 @@ System page - System functions like name, reboot, and factory reset.
 
 ## VirtualLoop Script Generator for Bosch Cameras<a name="camerascript"></a>
 
-[[VirtualLoop Camera Script Generator 1.5 Portable](https://www.dropbox.com/scl/fi/pfql0u62h9h1uefmgs6ie/STECameraScript_1.5.14Oct25.zip?rlkey=bqt70u8v3gxrkcvyeje7p4wcl&dl=0)]
+[[VirtualLoop Camera Script Generator 1.6 Portable](https://www.dropbox.com/scl/fi/ipz3sgbw7ufoh4nxb6kw0/STECameraScript_1.6.zip?rlkey=jdybqoive1tco27h8gxwwftua&dl=0)]
 
 Generates the Bosch camera alarm task scripts for ease of use and to reduce errors.
 
