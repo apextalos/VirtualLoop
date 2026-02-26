@@ -26,10 +26,7 @@
 
 **Mounting:** Din or shelf 2.1" wide x 6" deep x 4.1" high
 
-<img height="250" alt="Din_iso" src="https://github.com/user-attachments/assets/e606902a-25fe-4a86-87e3-f913a458dfb3" />
-<img height="250" alt="Din_rear" src="https://github.com/user-attachments/assets/dd634314-a87f-4709-be97-53b4329bdefe" />
-<img height="250" alt="Din_side" src="https://github.com/user-attachments/assets/fb541cc3-cbdc-4cb6-96dd-edceb44bea2e" />
-<img height="250" alt="Din_front" src="https://github.com/user-attachments/assets/d0578019-3367-4cdd-824d-ca40280487d6" />
+<img width="500" src="https://github.com/user-attachments/assets/e5f4a593-da96-4832-865a-9d17f8a7e4b0" />
 
 **Relay Control:**  8 relays (C/NO/NC contacts) each can switch a max of 1A @ 125VAC or 60VDC
 Relays are numbered 1 through 8 with 1 closest to the front of the unit.  Each relay includes Common, Normally Open, and Normally Closed contacts.
