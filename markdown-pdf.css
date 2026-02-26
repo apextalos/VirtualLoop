@@ -1,0 +1,14 @@
+/* Example markdown.css content */
+body {
+    font-family: serif;
+    margin: 2cm;
+	background-color: #f7f7f7;
+}
+p {
+    font-size: 12px;
+    line-height: 150%;
+}
+code {
+    color: #d14;
+    background-color: #f7f7f7;
+}
