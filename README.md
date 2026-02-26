@@ -19,10 +19,7 @@
 **Mounting:**  BIU rack plugin
 
 **Relay Control:**  None
-
-<img height="250" alt="Rack_iso" src="https://github.com/user-attachments/assets/616049a2-af66-47e1-9e1f-77e0dc958a87" />
-<img height="250" alt="Rack_side" src="https://github.com/user-attachments/assets/996f6862-f143-4e1a-8806-8dd1fbb3bdfd" />
-<img height="250" alt="Rack_front" src="https://github.com/user-attachments/assets/eba9d5de-2109-4dc7-9f3c-2a36058491d5" />
+<img width="500" src="https://github.com/user-attachments/assets/300a3dfd-6d98-4a05-8ba9-f6fcd87354bc" />
 
 ### DIN rail mounted
 **Power:** supplied either by 12/24VDC on the front, or PoE 802.3af (consumes only ~1w)
