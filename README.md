@@ -19,20 +19,19 @@
 **Mounting:**  BIU rack plugin
 
 **Relay Control:**  None
-<img width="500" src="https://github.com/user-attachments/assets/300a3dfd-6d98-4a05-8ba9-f6fcd87354bc" />
+<img height="300" src="https://github.com/user-attachments/assets/300a3dfd-6d98-4a05-8ba9-f6fcd87354bc" />
 
 ### DIN rail mounted
 **Power:** supplied either by 12/24VDC on the front, or PoE 802.3af (consumes only ~1w)
 
 **Mounting:** Din or shelf 2.1" wide x 6" deep x 4.1" high
 
-<img width="500" src="https://github.com/user-attachments/assets/e5f4a593-da96-4832-865a-9d17f8a7e4b0" />
+<img height="300" src="https://github.com/user-attachments/assets/e5f4a593-da96-4832-865a-9d17f8a7e4b0" />
 
 **Relay Control:**  8 relays (C/NO/NC contacts) each can switch a max of 1A @ 125VAC or 60VDC
 Relays are numbered 1 through 8 with 1 closest to the front of the unit.  Each relay includes Common, Normally Open, and Normally Closed contacts.
 
 <img width="800" alt="Relay contacts" src="https://github.com/user-attachments/assets/189c1398-b71e-48e6-81df-30fbbb72ee31" />
-
 
 ## Product information and datasheets<a name="datasheet"></a>
 <img width="723" alt="overview" src="https://github.com/user-attachments/assets/fdd604a2-de2c-4213-968b-2eb035a5c74a" />
