@@ -131,3 +131,7 @@ Double-click the reset button:
 
 ## Contact<a name="contact"></a>
 For assistance, please contact Brandon at brandon@apextalos.tech
+
+
+<img width="273" height="157" alt="OLED" src="https://github.com/user-attachments/assets/26a85162-b11d-4007-9740-de64b0d2e4f5" />
+
