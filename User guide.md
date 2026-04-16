@@ -133,7 +133,7 @@ The REST API supports integration with sensor systems through simple HTTP reques
 
 Generates the Bosch camera alarm task scripts for ease of use and to reduce errors.
 
-[[VirtualLoop Camera Script Generator 1.6 Portable Download](https://www.dropbox.com/scl/fi/ipz3sgbw7ufoh4nxb6kw0/STECameraScript_1.6.zip?rlkey=jdybqoive1tco27h8gxwwftua&dl=0)]
+[[VirtualLoop Camera Script Generator 1.6 Portable](https://github.com/user-attachments/files/26611823/STECameraScript_1.6.zip)]
 
 1. Enter the IP address of the VirtualLoop device
 1. Fill out the table with the mappings of cameras and rules to BIUs and detectors
@@ -168,9 +168,7 @@ Generates the Bosch camera alarm task scripts for ease of use and to reduce erro
 
 ## Firmware upgrades<a name="Firmware"></a>
 
-[[VirtualLoop Firmware Upgrade Utility 1.2 Portable](https://www.dropbox.com/scl/fi/rtb79ys46dydydu4ma76h/STEFirmwareUpgrader_1.2.zip?rlkey=xkjt9v6gsgjmpfusd72j7st51&dl=0)]
-
-[[VirtualLoop Firmware 4.0](https://www.dropbox.com/scl/fi/6hm1cn5fp46efbhr9ixib/SAMD51_4.0.bin?rlkey=5hlgwmp0y6pt8ji4mz32iprl9&dl=0)]
+[[VirtualLoop Firmware Upgrade Utility 1.2 Portable](https://github.com/apextalos/VirtualLoop/releases/download/ste_firmware-upgrader_1.2/STEFirmwareUpgrader_1.2.zip)]
 
 Download the firmware upgrade utility below and follow the instructions on the screen.
 
